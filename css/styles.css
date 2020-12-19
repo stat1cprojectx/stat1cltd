@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Cousine', monospace;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 50px auto 100px auto;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #11999E;
+}
+.btn{
+  color: #11999E;
+}
+.footer-link{
+  color: #11999E;
+}
+.web-development{
+  border-radius: 50%;
+}
+.top-container {
+  background-color: #f1f3f8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
