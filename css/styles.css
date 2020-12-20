@@ -23,25 +23,39 @@ h3 {
   font-family: 'Oswald', sans-serif;
   color: #11999E;
 }
+hr{
+  width: 5%;
+  border-top: 10px dotted #cdc9c3;
+  border-bottom: 0;
+}
+
+.skill-row {
+  line-height: 2;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
 .btn{
   color: #11999E;
 }
-.footer-link{
-  color: #11999E;
-}
-.web-development{
-  border-radius: 50%;
-}
 .top-container {
-  background-color: #f1f3f8;
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
 
 .middle-container {
 }
-
-.bottom-container {
+.profile{
+  margin: 100px auto;
+  line-height: 2;
+}
+.skills {
+  margin: 100px auto;
+}
+.contact-me {
+  margin: 100px auto;
 }
 
 .bottom-cloud {
@@ -52,4 +66,66 @@ h3 {
   position: absolute;
   right: 600px;
   top: 50px;
+}
+.profile-face-icon {
+  width: 13%;
+}
+.web-development{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+.painting {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+.button-contact {
+  margin: 75px auto;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-link:link, .footer-link:visited, .footer-link:hover, .footer-link:active{
+    color: #11999E;
+    text-decoration: none;
+    margin: auto 20px;
+    line-height: 2;
+}
+.trademark-paragraph{
+  color: white;
+}
+.BUTTON_RNJ {
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   height: 50px;
+   line-height: 50px;
+   color: #57A968;
+   font-family: Courier New;
+   width: 200px;
+   font-size: 30px;
+   font-weight: 600;
+   padding: 7px;
+   background-color: #A6CFCB;
+   -webkit-box-shadow: 2px 2px 2px 1px #575A60;
+   -moz-box-shadow: 2px 2px 2px 1px #575A60;
+   box-shadow: 2px 2px 2px 1px #575A60;
+   text-shadow: 1px 2px 0 #175423;
+   border: solid #FFFFFF 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_RNJ:hover {
+   background: rgba(194, 241, 237, 0.95);
+   border: solid #FFFFFF 0;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   text-decoration: none;
 }
