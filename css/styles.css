@@ -23,9 +23,11 @@ h3 {
   font-family: 'Oswald', sans-serif;
   color: #11999E;
 }
-hr{
-  width: 5%;
+hr {
+  width: 5em;
   border-top: 10px dotted #cdc9c3;
+  border-left: 0;
+  border-right: 0;
   border-bottom: 0;
 }
 
@@ -36,9 +38,6 @@ hr{
   margin: 100px auto 100px auto;
 }
 
-.btn{
-  color: #11999E;
-}
 .top-container {
   background-color: #EAF6F6;
   position: relative;
@@ -80,6 +79,11 @@ hr{
   float: right;
   margin-left: 30px;
 }
+.hamburger {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
 .button-contact {
   margin: 75px auto;
 }
@@ -97,35 +101,32 @@ hr{
 .trademark-paragraph{
   color: white;
 }
-.BUTTON_RNJ {
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+.btn {
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
    height: 50px;
    line-height: 50px;
-   color: #57A968;
+   color: #11999E;
    font-family: Courier New;
    width: 200px;
-   font-size: 30px;
+   font-size: 25px;
    font-weight: 600;
-   padding: 7px;
-   background-color: #A6CFCB;
-   -webkit-box-shadow: 2px 2px 2px 1px #575A60;
-   -moz-box-shadow: 2px 2px 2px 1px #575A60;
-   box-shadow: 2px 2px 2px 1px #575A60;
-   text-shadow: 1px 2px 0 #175423;
-   border: solid #FFFFFF 0;
+   padding: 0;
+   background-color: #FFFFFF;
+   text-shadow: 1px 1px 0 #000000;
+   border: solid #000000 2px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
    text-align: center;
 }
 
-.BUTTON_RNJ:hover {
-   background: rgba(194, 241, 237, 0.95);
-   border: solid #FFFFFF 0;
-   -webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-   border-radius: 3px;
+.btn:hover {
+   background: #DAF7F7;
+   border: solid #000000 2px;
+   -webkit-border-radius: 0;
+   -moz-border-radius: 0;
+   border-radius: 0;
    text-decoration: none;
 }
