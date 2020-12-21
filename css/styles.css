@@ -89,14 +89,21 @@ hr {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.footer-link:link, .footer-link:visited, .footer-link:hover, .footer-link:active{
+.footer-link:link, .footer-link:visited, .footer-link:active{
     color: #11999E;
+    text-decoration: none;
+    margin: auto 20px;
+    line-height: 2;
+}
+.footer-link:hover {
+    color: white;
     text-decoration: none;
     margin: auto 20px;
     line-height: 2;
 }
 .trademark-paragraph{
   color: white;
+  padding-top: 20px;
 }
 .btn {
    -webkit-border-radius: 0;
@@ -105,7 +112,7 @@ hr {
    height: 50px;
    line-height: 50px;
    color: #65D7DB;
-   font-family: Courier New;
+   font-family: 'Cousine', monospace;
    width: 200px;
    font-size: 25px;
    font-weight: 600;
