@@ -25,7 +25,7 @@ h3 {
 }
 hr {
   width: 5em;
-  border-top: 10px dotted #cdc9c3;
+  border-top: 7px dotted #cdc9c3;
   border-left: 0;
   border-right: 0;
   border-bottom: 0;
@@ -42,9 +42,6 @@ hr {
   background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
-}
-
-.middle-container {
 }
 .profile{
   margin: 100px auto;
@@ -107,15 +104,15 @@ hr {
    border-radius: 0;
    height: 50px;
    line-height: 50px;
-   color: #11999E;
+   color: #65D7DB;
    font-family: Courier New;
    width: 200px;
    font-size: 25px;
    font-weight: 600;
    padding: 0;
    background-color: #FFFFFF;
-   text-shadow: 1px 1px 0 #000000;
-   border: solid #000000 2px;
+   text-shadow: 1px 1px 0 #085D60;
+   border: solid #00CED5 2px;
    text-decoration: none;
    display: inline-block;
    cursor: pointer;
@@ -123,8 +120,8 @@ hr {
 }
 
 .btn:hover {
-   background: #DAF7F7;
-   border: solid #000000 2px;
+   background: #EBFBFB;
+   border: solid #00CED5 2px;
    -webkit-border-radius: 0;
    -moz-border-radius: 0;
    border-radius: 0;
